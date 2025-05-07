@@ -1,0 +1,9 @@
+torch
+python-multipart
+paddlepaddle
+paddleocr
+transformers
+ollama
+fastapi
+uvicorn
+python-dotenv

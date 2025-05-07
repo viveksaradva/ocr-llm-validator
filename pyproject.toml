@@ -1,0 +1,22 @@
+[project]
+name = "ocr-llm-based-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ctransformers>=0.2.27",
+    "fastapi>=0.115.12",
+    "ollama>=0.4.8",
+    "onnx>=1.17.0",
+    "openvino>=2025.1.0",
+    "optimum>=1.24.0",
+    "optimum-intel>=1.15.0",
+    "paddleocr>=2.10.0",
+    "paddlepaddle>=3.0.0",
+    "python-dotenv>=1.1.0",
+    "python-multipart>=0.0.20",
+    "torch>=2.7.0",
+    "transformers>=4.51.3",
+    "uvicorn>=0.34.2",
+]
